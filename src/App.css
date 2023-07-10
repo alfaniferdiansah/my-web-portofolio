@@ -405,7 +405,7 @@ body.active { overflow: hidden; }
   left: 20%;
   align-content: end;
   width: 80%;
-  height: 80%;
+  height: 75%;
   display: grid;
   opacity: 0.95;
   visibility: visible;
@@ -475,17 +475,16 @@ main { overflow-x: hidden; }
   align-items: center;
   padding-top: 115px;
   margin-bottom: var(--section-padding);
-  height: 130vh;
+  height: 110vh;
 }
 
 .hero-banner {
   max-width: 500px;
-  width: 105%;
+  width: 107%;
 }
 
 .hero-banner .w-100 {
-  width: 500px; 
-  height: 580px;
+  width: 410px; 
   margin-top: 80px;
 }
 
