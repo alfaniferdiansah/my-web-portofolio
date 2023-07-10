@@ -1,13 +1,11 @@
 import React from 'react';
-import herobanner from "../../../assets/hero-banner.jpg";
+import herobanner from "../../../assets/3d-business-man-and-woman-working-at-the-table.png";
 
 const Hero = () => {
   return (
     <section className="hero" id="home">
       <figure className="hero-banner">
         <picture>
-          <source srcSet={herobanner} media="(min-width: 768px)" />
-          <source srcSet={herobanner} media="(min-width: 500px)" />
           <img src={herobanner} alt="" className="w-100" />
         </picture>
       </figure>

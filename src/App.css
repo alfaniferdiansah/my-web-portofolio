@@ -291,9 +291,8 @@ body.active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--bg-primary);
   transition: var(--transition-1);
-  z-index: 4;
+  z-index: 2;
 }
 
 .header.active {
@@ -476,11 +475,18 @@ main { overflow-x: hidden; }
   align-items: center;
   padding-top: 115px;
   margin-bottom: var(--section-padding);
+  height: 130vh;
 }
 
 .hero-banner {
   max-width: 500px;
-  width: 125%;
+  width: 105%;
+}
+
+.hero-banner .w-100 {
+  width: 500px; 
+  height: 580px;
+  margin-top: 80px;
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
@@ -492,7 +498,7 @@ main { overflow-x: hidden; }
 .hero-title {
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 45px;
+  margin-top: 30px;
 }
 
 .hero .btn-primary { margin-inline: auto; }
@@ -569,6 +575,10 @@ main { overflow-x: hidden; }
   max-width: 400px;
   margin-inline: auto;
   margin-bottom: 80px;
+}
+
+.about-banner .w-100 {
+  width: 400px;
 }
 
 .about .btn {

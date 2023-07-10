@@ -1,5 +1,5 @@
 import React from "react";
-import aboutbanner from "../../../assets/hero-banner.png";
+import aboutbanner from "../../../assets/business-3d-businessman-greeting-a-partner-at-the-meeting.png";
 const About = () => {
   return (
     <section className="about" id="about">
@@ -29,7 +29,7 @@ const About = () => {
           <button className="btn btn-secondary">Hire me</button>
           </a>
 
-        <a href="https://wa.link/syazdj">
+        <a href="">
           <button className="btn btn-primary">Download cv</button>
         </a>
         </div>
