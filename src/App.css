@@ -80,6 +80,7 @@ body.dark_theme {
   --bg-primary: hsl(0, 0%, 12%);
   --bg-secondary: hsl(0, 0%, 19%);
   --color-primary: hsl(0, 0%, 100%);
+  --color-skill: hsl(0, 0%, 100%);
   --color-secondary: hsl(0, 0%, 62%);
   --card-shadow: hsla(0, 0%, 0%, 0.4);
   --input-bg: hsl(0, 0%, 16%);
@@ -93,6 +94,7 @@ body.light_theme {
   --bg-primary: hsl(0, 0%, 90%);
   --bg-secondary: hsl(0, 0%, 100%);
   --color-primary: hsl(0, 0%, 12%);
+  --color-skill: hsl(0, 0%, 12%);
   --color-secondary: hsl(0, 0%, 37%);
   --card-shadow: hsla(0, 0%, 0%, 0.1);
   --input-bg: hsl(0, 0%, 93%);
@@ -618,13 +620,13 @@ main { overflow-x: hidden; }
 }
 
 .toggle-btn {
-  color: var(--color-primary);
+  color: var(--color-skill);
   font-family: var(--ff-poppins);
   padding: 5px 25px;
   transition: var(--transition-1);
 }
 
-.toggle-btn.active { color: var(--white); }
+.toggle-btn.active { color: var(--color-skill); }
 
 .skills-box.active .skills-list,
 .skills-box .tools-list { display: none; }

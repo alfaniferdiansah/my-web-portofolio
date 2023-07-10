@@ -19,7 +19,7 @@ const Portfolio = () => {
           </li>
   
           <li>
-            <a href="#" className="project-card">
+            <a href="https://github.com/alfaniferdiansah/my-web-portofolio" className="project-card">
               <figure className="card-banner">
                 <img src={project1} className="w-100" alt="My Portfolio responsive" />
               </figure>
@@ -36,9 +36,9 @@ const Portfolio = () => {
           </li>
   
           <li>
-            <a href="#" className="project-card">
+            <a href="https://github.com/alfaniferdiansah/MERN-CRUD-Product" className="project-card">
               <figure className="card-banner">
-                <img src={project2} className="w-100" alt="On a Blue background, a Wacom and a mouse." />
+                <img src={project2} className="w-100" alt="CRUD Product" />
               </figure>
               <div className="card-content">
                 <h3 className="h4 card-title">This is my first mini project with Fullstack with CRUD method about product data sample</h3>
@@ -50,9 +50,9 @@ const Portfolio = () => {
           </li>
   
           <li>
-            <a href="#" className="project-card">
+            <a href="https://github.com/alfaniferdiansah/MERN-Ecommerce" className="project-card">
               <figure className="card-banner">
-                <img src={project3} className="w-100" alt="A Cassette tape on a mellow apricot background." />
+                <img src={project3} className="w-100" alt="Ecommerce build website" />
               </figure>
               <div className="card-content">
                 <h3 className="h4 card-title">This is a fullstack-based online shop project with a complex crud system about product data to invoice orders</h3>

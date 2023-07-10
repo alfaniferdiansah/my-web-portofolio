@@ -28,6 +28,7 @@ const Header = () => {
 
   const toggleTheme = () => {
     document.body.classList.toggle('active');
+    window.location.reload();
     setIsThemeActive(!isThemeActive);
   };
 
