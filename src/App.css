@@ -475,17 +475,18 @@ main { overflow-x: hidden; }
   align-items: center;
   padding-top: 115px;
   margin-bottom: var(--section-padding);
-  height: 110vh;
+  height: 130vh;
 }
 
 .hero-banner {
   max-width: 500px;
-  width: 107%;
+  width: 95%;
 }
 
 .hero-banner .w-100 {
-  width: 410px; 
+  width: 450px; 
   margin-top: 80px;
+  padding-bottom: 80px;
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
