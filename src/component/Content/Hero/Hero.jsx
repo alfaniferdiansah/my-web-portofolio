@@ -1,17 +1,20 @@
-import React from 'react';
-import herobanner from "../../../assets/3d-business-man-and-woman-working-at-the-table.png";
+import React from "react";
 
 const Hero = () => {
   return (
     <section className="hero" id="home">
-      <figure className="hero-banner">
-        <picture>
-          <img src={herobanner} alt="" className="w-100" />
-        </picture>
-      </figure>
-      <div className="hero-content">
-        <h2 className="h2 hero-title">Fullstack Developer Web Design & Build Creative Products</h2>
-        <a href="#contact" className="btn btn-primary">Contact Me</a>
+      <div class="body-part-1">
+        <div className="hero-content">
+          <h2 className="hero-title">
+            Fullstack Developer<span>Web Design & Build Creative Products</span>
+          </h2>
+          <a href="#contact" className="btn btn-primary">
+            Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="hero-banner">
+        <div class="background-circle"></div>
       </div>
       <ul className="hero-social-list">
         <li>
@@ -21,19 +24,27 @@ const Hero = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/alfaniferdiansah" className="hero-social-link">
+          <a
+            href="https://github.com/alfaniferdiansah"
+            className="hero-social-link"
+          >
             <ion-icon name="logo-github"></ion-icon>
             <div className="tooltip">Github</div>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/alfani-ferdiansah-331829254/" className="hero-social-link">
+          <a
+            href="https://www.linkedin.com/in/alfani-ferdiansah/"
+            className="hero-social-link"
+          >
             <ion-icon name="logo-linkedin"></ion-icon>
             <div className="tooltip">Linkedin</div>
           </a>
         </li>
       </ul>
-      <a href="#about" className="scroll-down">Scroll</a>
+      <a href="#about" className="scroll-down">
+        Scroll
+      </a>
     </section>
   );
 };

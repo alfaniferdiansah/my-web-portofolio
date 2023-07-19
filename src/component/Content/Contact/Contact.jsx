@@ -60,7 +60,7 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/alfani-ferdiansah-331829254/" className="contact-social-link">
+                <a href="https://www.linkedin.com/in/alfani-ferdiansah/" className="contact-social-link">
                   <div className="tooltip">Linkedin</div>
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>

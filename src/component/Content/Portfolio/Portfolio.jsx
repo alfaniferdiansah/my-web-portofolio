@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../../../assets/project_portfolio.png";
 import project2 from "../../../assets/project2.png";
 import project3 from "../../../assets/project3.png";
+import project4 from "../../../assets/project4.png";
 
 const Portfolio = () => {
     return (
@@ -56,7 +57,21 @@ const Portfolio = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h4 card-title">This is a fullstack-based online shop project with a complex crud system about product data to invoice orders</h3>
-                <time className="publish-date" dateTime="2022-04">
+                <time className="publish-date" dateTime="2023-7">
+                  Juny 2023
+                </time>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/alfaniferdiansah/quiz-website.git" className="project-card">
+              <figure className="card-banner">
+                <img src={project4} className="w-100" alt="Quiz website" />
+              </figure>
+              <div className="card-content">
+                <h3 className="h4 card-title">This is a simple website with quiz content build with html css and js native</h3>
+                <time className="publish-date" dateTime="2023-7">
                   Juny 2023
                 </time>
               </div>

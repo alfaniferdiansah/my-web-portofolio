@@ -25,11 +25,11 @@ const About = () => {
         </p>
 
         <div className="btn-group">
-        <a href="https://wa.link/syazdj">
+        <a href="https://www.linkedin.com/in/alfani-ferdiansah/">
           <button className="btn btn-secondary">Hire me</button>
           </a>
 
-        <a href="">
+        <a href="https://drive.google.com/file/d/181fIdF39eauYZKDwtAkiZC_e51SC0h80/view?usp=sharing">
           <button className="btn btn-primary">Download cv</button>
         </a>
         </div>
