@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -8,6 +9,26 @@ const Hero = () => {
           <h2 className="hero-title">
             Fullstack Developer<span>Web Design & Build Creative Products</span>
           </h2>
+          <TypeAnimation
+            sequence={[
+              "Hello! Welcome to my blog. This website contains information about personal information, abilities, a list of completed projects as a form of portfolio, and my contacts",
+              2000,
+              "",
+              1000,
+            ]}
+            speed={40}
+            style={{
+              fontSize: "20px",
+              color: "black",
+              marginTop: "30px",
+              padding: "20px",
+              textAlign: "justify",
+              left: "5px",
+              borderRadius: "20px",
+              background: "#ffffffde"
+            }}
+            repeat={Infinity}
+          />
           <a href="#contact" className="btn btn-primary">
             Contact Me
           </a>

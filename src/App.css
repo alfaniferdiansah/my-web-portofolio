@@ -387,8 +387,8 @@ body.active { overflow: hidden; }
 .navbar {
   position: fixed;
   background: var(--bg-secondary);
-  top: 100%;
-  left: 20%;
+  top: 0%;
+  left: 100%;
   align-content: end;
   width: 80%;
   max-height: 80%;
@@ -396,12 +396,12 @@ body.active { overflow: hidden; }
   opacity: 0.95;
   visibility: visible;
   place-items: center;
-  transition: 0.90s cubic-bezier(0.71, 0.01, 0.24, 0.99);
+  transition: 0.90s cubic-bezier(0.5, 0.5, 0.5, 0.9);
   transition-delay: 0.5s;
 }
 
 .navbar.active {
-  top: 0;
+  left: 20%;
   visibility: visible;
   transition-delay: 0s;
 }
@@ -463,9 +463,11 @@ main { overflow-x: hidden; }
 
 .background-circle {
   background: url(assets/Hoodie-guy.png);
-  border-radius: 50% 0 50% 0;
-  width: 550px;
-  height: 600px;
+  border-radius: 40% 0 40% 0;
+  width: 400px;
+  height: 400px;
+  margin-top: 170px;
+  margin-left: 120px;
   z-index: 9;
   box-shadow: 0 0 20px #00000080;
   background-size: cover;
@@ -477,13 +479,13 @@ main { overflow-x: hidden; }
 .hero-content { 
   max-width: 500px;
   text-align: center;
-  padding-bottom: 10%;
 }
 
 h2 {
   font-family: var(--ff-poppins);
   line-height: 1.2;
   font-size: var(--fs-2);
+  text-align: center;
   color: var(--title-primary);
 }
 
@@ -492,9 +494,8 @@ h2 {
 }
 
 .hero-banner {
-  max-width: 600px;
-  width: 110%;
-  padding-top: 100px;
+  max-width: 640px;
+  width: 140%;
 }
 
 .hero .btn-primary {
@@ -645,7 +646,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  animation: fadeIn 0.5s ease-out forwards;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 @keyframes fadeIn {
@@ -671,10 +672,6 @@ h2 {
   transform: translateY(0);
   opacity: 1;
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #PROJECT

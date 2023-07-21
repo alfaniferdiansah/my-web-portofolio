@@ -17,7 +17,7 @@ const About = () => {
         <h2 className="h3 section-title">Need a Creative Product? I can Help You!</h2>
 
         <p className="section-text">
-          Hi! I’m Ferdiansah, and I’m a developer who has passion for building clean web applications with intuitive
+          Hi! I’m Alfani Ferdiansah, and I’m a developer who has passion for building clean web applications with intuitive
           functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious
           about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I
           have worked with creative teams, which involves daily stand-ups and communications, source control, and project

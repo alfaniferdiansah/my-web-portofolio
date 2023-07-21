@@ -16,7 +16,7 @@ import vsLogo from "../../../assets/vs-code.png";
 import cmdLogo from "../../../assets/command.png";
 
 const Skill = () => {
-    const [toggleSkills, setToggleSkills] = useState(true);
+  const [toggleSkills, setToggleSkills] = useState(true);
 
   const toggleSkillsBox = () => {
     setToggleSkills(!toggleSkills);
@@ -24,37 +24,34 @@ const Skill = () => {
 
   return (
     <>
-    <section className="skills" id="skills">
-      <div className="skills-content section-content">
-        <p className="section-subtitle">My skills</p>
-        <h2 className="h3 section-title">What My Programming Skills Included?</h2>
-        <p className="section-text">
-          I develop simple, intuitive and responsive user interface that helps users get things done with less effort
-          and time with those technologies.
-        </p>
-        <div className={`skills-toggle ${toggleSkills ? "active" : ""}`}>
-          <button
-            className={`toggle-btn ${toggleSkills ? "active" : ""}`}
-            onClick={toggleSkillsBox}
-          >
-            Skills
-          </button>
-          <button
-            className={`toggle-btn ${!toggleSkills ? "active" : ""}`}
-            onClick={toggleSkillsBox}
-          >
-            Tools
-          </button>
+      <section className="skills" id="skills">
+        <div className="skills-content section-content">
+          <p className="section-subtitle">My skills</p>
+          <h2 className="h3 section-title">
+            What My Programming Skills Included?
+          </h2>
+          <p className="section-text">
+            I develop simple, intuitive and responsive user interface that helps
+            users get things done with less effort and time with those
+            technologies.
+          </p>
+          <div className={`skills-toggle ${toggleSkills ? "active" : ""}`}>
+            <button className={`toggle-btn`} onClick={toggleSkillsBox}>
+              Skills
+            </button>
+            <button className={`toggle-btn`} onClick={toggleSkillsBox}>
+              Tools
+            </button>
+          </div>
         </div>
-      </div>
-      <div className={`skills-box ${toggleSkills ? "active" : ""}`}>
-        <ul className="skills-list">
-        <li>
+        <div className={`skills-box ${toggleSkills ? "active" : ""}`}>
+          <ul className="skills-list">
+            <li>
               <div className="skill-card">
                 <div className="tooltip">HTML5</div>
 
                 <div className="card-icon">
-                  <img src={htmlLogo} alt="HTML5 logo"/>
+                  <img src={htmlLogo} alt="HTML5 logo" />
                 </div>
               </div>
             </li>
@@ -64,7 +61,7 @@ const Skill = () => {
                 <div className="tooltip">CSS3</div>
 
                 <div className="card-icon">
-                <img src={cssLogo} alt="CSS3 logo"/>
+                  <img src={cssLogo} alt="CSS3 logo" />
                 </div>
               </div>
             </li>
@@ -74,7 +71,7 @@ const Skill = () => {
                 <div className="tooltip">JavaScript</div>
 
                 <div className="card-icon">
-                <img src={javascriptLogo} alt="JavaScript logo"/>
+                  <img src={javascriptLogo} alt="JavaScript logo" />
                 </div>
               </div>
             </li>
@@ -84,7 +81,11 @@ const Skill = () => {
                 <div className="tooltip">Tailswind</div>
 
                 <div className="card-icon">
-                <img src={tailswindLogo} alt="Tailswind" style={{ width: "48px", height: "48px" }}/>
+                  <img
+                    src={tailswindLogo}
+                    alt="Tailswind"
+                    style={{ width: "48px", height: "48px" }}
+                  />
                 </div>
               </div>
             </li>
@@ -94,7 +95,7 @@ const Skill = () => {
                 <div className="tooltip">Bootstrap</div>
 
                 <div className="card-icon">
-                <img src={bootstrapLogo} alt="Bootstrap logo"/>
+                  <img src={bootstrapLogo} alt="Bootstrap logo" />
                 </div>
               </div>
             </li>
@@ -104,7 +105,7 @@ const Skill = () => {
                 <div className="tooltip">React</div>
 
                 <div className="card-icon">
-                <img src={reactLogo} alt="React" />
+                  <img src={reactLogo} alt="React" />
                 </div>
               </div>
             </li>
@@ -114,7 +115,7 @@ const Skill = () => {
                 <div className="tooltip">nodeJS</div>
 
                 <div className="card-icon">
-                <img src={nodeLogo} alt="nodeJS" />
+                  <img src={nodeLogo} alt="nodeJS" />
                 </div>
               </div>
             </li>
@@ -124,7 +125,7 @@ const Skill = () => {
                 <div className="tooltip">ExpressJS</div>
 
                 <div className="card-icon">
-                <img src={expressLogo} alt="ExpressJS" />
+                  <img src={expressLogo} alt="ExpressJS" />
                 </div>
               </div>
             </li>
@@ -134,7 +135,7 @@ const Skill = () => {
                 <div className="tooltip">MySQL</div>
 
                 <div className="card-icon">
-                <img src={mysqlLogo} alt="mysql" />
+                  <img src={mysqlLogo} alt="mysql" />
                 </div>
               </div>
             </li>
@@ -144,20 +145,18 @@ const Skill = () => {
                 <div className="tooltip">MongoDB</div>
 
                 <div className="card-icon">
-                <img src={mongoLogo} alt="MongoDB" />
+                  <img src={mongoLogo} alt="MongoDB" />
                 </div>
               </div>
             </li>
-
-        </ul>
-        <ul className="tools-list">
-
+          </ul>
+          <ul className="tools-list">
             <li>
               <div className="skill-card">
                 <div className="tooltip">Command</div>
 
                 <div className="card-icon">
-                <img src={cmdLogo} alt="Command"/>
+                  <img src={cmdLogo} alt="Command" />
                 </div>
               </div>
             </li>
@@ -167,7 +166,7 @@ const Skill = () => {
                 <div className="tooltip">Git</div>
 
                 <div className="card-icon">
-                <img src={gitLogo} alt="Git"/>
+                  <img src={gitLogo} alt="Git" />
                 </div>
               </div>
             </li>
@@ -177,7 +176,7 @@ const Skill = () => {
                 <div className="tooltip">Github</div>
 
                 <div className="card-icon">
-                <img src={githubLogo} alt="Github"/>
+                  <img src={githubLogo} alt="Github" />
                 </div>
               </div>
             </li>
@@ -187,7 +186,7 @@ const Skill = () => {
                 <div className="tooltip">Postman</div>
 
                 <div className="card-icon">
-                <img src={postmanLogo} alt="Postman"/>
+                  <img src={postmanLogo} alt="Postman" />
                 </div>
               </div>
             </li>
@@ -197,14 +196,13 @@ const Skill = () => {
                 <div className="tooltip">VS Code</div>
 
                 <div className="card-icon">
-                <img src={vsLogo} alt="VSCode"/>
+                  <img src={vsLogo} alt="VSCode" />
                 </div>
               </div>
             </li>
-
-        </ul>
-      </div>
-    </section>
+          </ul>
+        </div>
+      </section>
     </>
   );
 };
