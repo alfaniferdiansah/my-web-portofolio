@@ -392,8 +392,8 @@ body.active { overflow: hidden; }
   top: 0%;
   left: 100%;
   align-content: center;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: max-content;
   display: grid;
   opacity: 0.95;
   visibility: visible;
@@ -403,7 +403,7 @@ body.active { overflow: hidden; }
 }
 
 .navbar.active {
-  left: 20%;
+  left: 0%;
   visibility: visible;
   transition-delay: 0s;
 }
