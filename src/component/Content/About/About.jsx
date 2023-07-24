@@ -1,5 +1,5 @@
 import React from "react";
-import aboutbanner from "../../../assets/business-3d-businessman-greeting-a-partner-at-the-meeting.png";
+import aboutbanner from "../../../assets/pro_photo-2.jpeg";
 const About = () => {
   return (
     <section className="about" id="about">
@@ -7,7 +7,7 @@ const About = () => {
         <img
           src={aboutbanner}
           alt="A man in a alice blue shirt with a thinking expression"
-          className="w-100"
+          className="img-about"
         />
       </figure>
 
@@ -17,11 +17,11 @@ const About = () => {
         <h2 className="h3 section-title">Need a Creative Product? I can Help You!</h2>
 
         <p className="section-text">
-          Hi! I’m Alfani Ferdiansah, and I’m a developer who has passion for building clean web applications with intuitive
-          functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious
-          about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I
-          have worked with creative teams, which involves daily stand-ups and communications, source control, and project
-          management.
+        Highly skilled and motivated Information Systems graduate with a strong passion and talent for software
+        development and information technology. Proficient in programming and designing websites using various
+        programming languages, frameworks, and libraries. Experienced in analyzing and designing efficient and
+        effective information systems. Excellent teamwork and collaboration skills. I am ready to work according to
+        procedures and contribute concretely.
         </p>
 
         <div className="btn-group">

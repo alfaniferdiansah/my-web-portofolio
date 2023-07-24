@@ -89,6 +89,9 @@ const Header = () => {
               <a href="#skills" className="navbar-link navbar-link-bottom">Skills</a>
             </li>
             <li>
+              <a href="#experience" className="navbar-link navbar-link-bottom">Education</a>
+            </li>
+            <li>
               <a href="#portfolio" className="navbar-link navbar-link-bottom">Portfolio</a>
             </li>
             <li>
