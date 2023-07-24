@@ -9,10 +9,10 @@ const Education = () => {
 
   return (
     <section className="exp" id="experience">
-      <div className="project-content">
+      <div className="exp-content">
         <div className="section-edu">
         <p className="exp-subtitle">My Qualification</p>
-        <h2 className="h3 exp-title">See About my journey education and experience!</h2>
+        <h2 className="h3 exp-title">See About My Journey Education and Experience!</h2>
         <p className="section-text">
           This is my qualification about my education journey and work experience which i have completed
         </p>
