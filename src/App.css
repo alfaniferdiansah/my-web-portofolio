@@ -394,7 +394,6 @@ body.active { overflow: hidden; }
   align-content: end;
   width: 80%;
   max-height: 70%;
-  height: 70%;
   display: grid;
   opacity: 0.95;
   visibility: visible;
