@@ -15,7 +15,7 @@ const WorkItems = ({ item }) => {
         </div>
       </a>
       <h3 className="project-title">{item.title}</h3>
-      <a href={item.link} className="project-button">
+      <a href={item.demo} className="project-button">
         Demo
       </a>
       
