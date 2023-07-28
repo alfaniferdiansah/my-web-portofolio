@@ -26,7 +26,8 @@ const Hero = () => {
         </div>
       </div>
       <div class="hero-banner">
-        <div class="background-circle"></div>
+        <div class="background-circle">
+        </div>
       </div>
       <ul className="hero-social-list">
         <li>

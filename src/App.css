@@ -474,18 +474,15 @@ main { overflow-x: hidden; }
 
 .background-circle {
   background: url(assets/pro_photo.png);
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 550px;
   margin-inline: auto;
   display: flex;
   justify-content: center;
-  max-width: 500px;
-  margin-top: 170px;
-  background-color: rgb(232, 234, 236);
-  z-index: 9;
-  box-shadow: 0 0 10px var(--color-primary);
-  background-size: cover;
+  margin-top: 90px;
+  z-index: 3;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -522,7 +519,10 @@ h2 {
  * #STATS
 \*-----------------------------------*/
 
-.stats { padding-block: var(--section-padding); }
+.stats { 
+  padding-block: var(--section-padding); 
+  margin-top: 50px;
+}
 
 .stats-list {
   display: grid;
@@ -592,8 +592,16 @@ h2 {
   width: 350px;
   height: 350px;
   border-radius: 50%;
+  cursor: pointer;
   filter: grayscale(60%);
   box-shadow: 0 0 10px var(--color-primary);
+  transition: var(--transition-1);
+}
+
+.about-banner .img-about:is(:hover, :focus) {
+  width: 370px;
+  height: 370px;
+  transform: rotate(3deg);
 }
 
 .about .btn {

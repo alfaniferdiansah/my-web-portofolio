@@ -31,7 +31,7 @@ const Stats = () => {
               </div>
 
               <h2 className="h2 card-title">
-                3 <strong>Completed Projects</strong>
+                10+ <strong>Completed Projects</strong>
               </h2>
 
             </a>
@@ -45,7 +45,7 @@ const Stats = () => {
               </div>
 
               <h2 className="h2 card-title">
-                <strong>Happy Clients</strong>
+                50+<strong>Happy Clients</strong>
               </h2>
 
             </a>
