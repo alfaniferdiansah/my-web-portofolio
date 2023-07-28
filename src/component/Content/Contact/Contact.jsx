@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-function Contact() {
-    
+const Contact = () => {
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logika pengiriman pesan
+
+    emailjs.sendForm('service_vqk1znn', 'template_p2l0m2q', form.current, '6o9o7q7PvZU9xmzne')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
@@ -75,25 +83,25 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form" form ref={form} onSubmit={handleSubmit}>
         <div className="form-wrapper">
           <label htmlFor="name" className="form-label">Name</label>
           <div className="input-wrapper">
-            <input type="text" name="name" id="name" required placeholder="ex. Felixsia " className="input-field" />
+            <input type="text" name="user_name" id="name" required placeholder="ex. Felixsia " className="input-field" />
             <ion-icon name="person-circle"></ion-icon>
           </div>
         </div>
         <div className="form-wrapper">
           <label htmlFor="email" className="form-label">Email</label>
           <div className="input-wrapper">
-            <input type="email" name="email" id="email" required placeholder="ex. yourmail@gmail.com" className="input-field" />
+            <input type="email" name="user_email" id="email" required placeholder="ex. yourmail@gmail.com" className="input-field" />
             <ion-icon name="mail"></ion-icon>
           </div>
         </div>
         <div className="form-wrapper">
           <label htmlFor="phone" className="form-label">Phone</label>
           <div className="input-wrapper">
-            <input type="tel" name="phone" id="phone" required placeholder="Phone Number" className="input-field" />
+            <input type="tel" name="user_phonenumber" id="phone" required placeholder="Phone Number" className="input-field" />
             <ion-icon name="call"></ion-icon>
           </div>
         </div>
