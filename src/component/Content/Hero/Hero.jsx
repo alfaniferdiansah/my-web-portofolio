@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <section className="hero" id="home">
-      <div class="body-part-1">
+      <div className="body-part-1">
         <div className="hero-content">
           <h2 className="hero-title">
             Fullstack Developer<span>Web Design & Build Creative Products</span>
@@ -25,8 +25,8 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div class="hero-banner">
-        <div class="background-circle">
+      <div className="hero-banner">
+        <div className="background-circle">
         </div>
       </div>
       <ul className="hero-social-list">
