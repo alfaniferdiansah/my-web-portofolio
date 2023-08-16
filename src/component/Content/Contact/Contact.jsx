@@ -16,8 +16,8 @@ const Contact = () => {
     if (name === "" || email === "" || phone === "" || message === "") {
       console.log("error send message");
       toast.error("Opss! Your message cann't process, please fill all field");
-    }else {
-    setOpen(!open);
+    } else {
+      setOpen(!open);
     }
   };
 
@@ -63,13 +63,6 @@ const Contact = () => {
             <li className="contact-list-item">
               <div className="contact-item-icon">
                 <ion-icon name="location-outline"></ion-icon>
-              </div>
-              <div className="wrapper">
-                <h3 className="h4 contact-item-title">Address:</h3>
-                <address className="contact-info">
-                  Dsn. Curah Ancar Timur, RT/RW.11/02, Rambipuji, Jember, Jawa
-                  Timur, Indonesia
-                </address>
               </div>
             </li>
             <li className="contact-list-item">
@@ -222,20 +215,20 @@ const Contact = () => {
       </section>
 
       {open && (
-          <div className="modal">
-            <div onClick={toggleOpen} className="overlay"></div>
-            <div className="modal-content">
-              <Success />
-              <div className="close-modal">
-                <RxCross1
-                  size={25}
-                  className="icons-notification"
-                  onClick={toggleOpen}
-                />
-              </div>
+        <div className="modal">
+          <div onClick={toggleOpen} className="overlay"></div>
+          <div className="modal-content">
+            <Success />
+            <div className="close-modal">
+              <RxCross1
+                size={25}
+                className="icons-notification"
+                onClick={toggleOpen}
+              />
             </div>
           </div>
-        )}
+        </div>
+      )}
     </>
   );
 };
