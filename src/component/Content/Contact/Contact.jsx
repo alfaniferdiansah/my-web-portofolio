@@ -62,11 +62,6 @@ const Contact = () => {
           <ul className="contact-list">
             <li className="contact-list-item">
               <div className="contact-item-icon">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-            </li>
-            <li className="contact-list-item">
-              <div className="contact-item-icon">
                 <ion-icon name="call-outline"></ion-icon>
               </div>
               <div className="wrapper">
